@@ -1,0 +1,15 @@
+jtag.c:43:6:FileToJTAG	24	static
+jtag.c:54:6:program_FPGA	2160	static
+jtag.c:199:6:JTAG_reset	16	static
+jtag.c:213:6:JTAG_EnterSelectDR	4	static
+jtag.c:219:6:JTAG_EnterShiftIR	4	static
+jtag.c:225:6:JTAG_EnterShiftDR	4	static
+jtag.c:232:6:JTAG_ExitShift	4	static
+jtag.c:238:6:JTAG_ReadDR	16	static
+jtag.c:244:6:JTAG_ReadData	24	static
+jtag.c:287:5:JTAG_DetermineChainLength	24	static
+jtag.c:320:5:JTAG_scan	8	static
+jtag.c:352:6:JTAG_PREprogram	16	static
+jtag.c:409:6:JTAG_POSprogram	16	static
+jtag.c:493:6:setupJTAG	8	static
+jtag.c:515:6:releaseJTAG	8	static

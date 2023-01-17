@@ -1,0 +1,3 @@
+sdCard.c:23:6:initializeSdCard	24	static
+sdCard.c:69:9:buildCat	344	static
+sdCard.c:146:6:disableSD	16	static

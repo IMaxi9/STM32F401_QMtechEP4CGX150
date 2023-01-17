@@ -1,0 +1,10 @@
+fileBrowser.c:35:9:countFiles	16	static
+fileBrowser.c:46:6:showList	160	static
+fileBrowser.c:107:6:changeDir	16	static
+fileBrowser.c:117:6:setCorePath	8	static
+fileBrowser.c:167:6:mapKeyToChar	16	static
+fileBrowser.c:200:6:mapCharToKey	16	static
+fileBrowser.c:415:6:setCurrentKey	24	static
+fileBrowser.c:438:6:setLastDirs	528	static
+fileBrowser.c:496:6:setCoreRoot	8	static
+fileBrowser.c:502:6:setLastPath	8	static

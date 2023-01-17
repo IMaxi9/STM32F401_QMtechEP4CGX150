@@ -1,0 +1,16 @@
+osd.c:18:6:spi_osd_cmd_cont	16	static
+osd.c:26:6:spi_n	16	static
+osd.c:32:6:spi8	16	static
+osd.c:38:6:spi16	24	static
+osd.c:49:6:spi24	24	static
+osd.c:63:6:spi32	24	static
+osd.c:80:6:EnableOsdSPI	4	static
+osd.c:86:6:DisableOsdSPI	4	static
+osd.c:92:6:OSDVisible	16	static
+osd.c:105:6:OsdClear	8	static
+osd.c:113:6:OsdWrite	24	static
+osd.c:119:6:OsdWriteOffset	40	static
+osd.c:262:6:OSD_progressBar	40	static
+osd.c:314:6:initOSD	8	static
+osd.c:321:6:removeOSD	8	static
+osd.c:329:6:confirmAutoLoad	32	static

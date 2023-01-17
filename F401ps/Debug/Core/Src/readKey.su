@@ -1,0 +1,2 @@
+readKey.c:21:5:readKeyboard	32	static
+readKey.c:99:6:waitKeyPress	16	static
