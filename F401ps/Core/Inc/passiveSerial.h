@@ -17,8 +17,8 @@
 // #define nSTATUS		PA2 in
 // #define ADSO			PB8 out
 
-#define ps_clock() GPIOB->BSRR = (1U << 0); GPIOB->BSRR =(1U << 16);
-
+//#define ps_clock() GPIOB->BSRR = (1U << 0); GPIOB->BSRR =(1U << 16);
+#define DATCLK_LOW()  GPIOB->BSRR =((1U << 16)|(1U << 24));
 #define DCLK_HIGH() GPIOB->BSRR = (1U << 0);
 #define DCLK_LOW()  GPIOB->BSRR =(1U << 16);
 #define ADSO_HIGH() GPIOB->BSRR = (1U << 8);

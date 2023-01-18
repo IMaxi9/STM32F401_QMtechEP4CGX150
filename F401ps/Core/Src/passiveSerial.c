@@ -70,50 +70,44 @@ void program_FPGA_PS(char* path) {
 	        	}
 	      }
 	      bytecount++ ;
-	      ADSO_LOW();
-	      DCLK_LOW();
+	      DATCLK_LOW();
 	      if ( ( sd_buffer[ f ]) & 0x01 )
 	    	  ADSO_HIGH();
 	      DCLK_HIGH();
 
-	      ADSO_LOW();
-	      DCLK_LOW();
+	      DATCLK_LOW();
 	      if ( ( sd_buffer[ f ]) & 0x02 )
 	    	  ADSO_HIGH();
 	      DCLK_HIGH();
 
-	      ADSO_LOW();
-	      DCLK_LOW();
+	      DATCLK_LOW();
 	      if ( ( sd_buffer[ f ]) & 0x04 )
 	    	  ADSO_HIGH();
 	      DCLK_HIGH();
 
-	      ADSO_LOW();
-	      DCLK_LOW();
+	      DATCLK_LOW();
 	      if ( ( sd_buffer[ f ]) & 0x08 )
 	    	  ADSO_HIGH();
 	      DCLK_HIGH();
 
-	      ADSO_LOW();
-	      DCLK_LOW();
+	      DATCLK_LOW();
 	      if ( ( sd_buffer[ f ]) & 0x10 )
 	    	  ADSO_HIGH();
 	      DCLK_HIGH();
 
-	      ADSO_LOW();
-	      DCLK_LOW();
+	      DATCLK_LOW();
 	      if ( ( sd_buffer[ f ]) & 0x20 )
 	    	  ADSO_HIGH();
 	      DCLK_HIGH();
 
-	      ADSO_LOW();
-	      DCLK_LOW();
+	      DATCLK_LOW();
 	      if ( ( sd_buffer[ f ]) & 0x40 )
 	    	  ADSO_HIGH();
 	      DCLK_HIGH();
 
-	      ADSO_LOW();
-	      DCLK_LOW();
+//	      ADSO_LOW();
+//	      DCLK_LOW();
+	      DATCLK_LOW();
 	      if ( ( sd_buffer[ f ]) & 0x80 )
 	    	  ADSO_HIGH();
 	      DCLK_HIGH();
